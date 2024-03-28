@@ -1,0 +1,8 @@
+.book {
+  background-color: var(--color-blue);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  border: var(--color-line) solid 2px;
+  width: 50vw;
+}

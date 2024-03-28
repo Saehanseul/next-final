@@ -1,0 +1,7 @@
+.bookCategory {
+  background-color: var(--color-background);
+  border: var(--color-line) solid 2px;
+  padding: 20px;
+  margin: 20px;
+  width: 50vw;
+}
