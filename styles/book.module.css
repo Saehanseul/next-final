@@ -1,8 +1,37 @@
 .book {
   background-color: var(--color-blue);
   margin: 20px;
-  padding: 20px;
-  border-radius: 10px;
+  padding: 0 20px;
+  border-radius: 5px;
   border: var(--color-line) solid 2px;
   width: 50vw;
+  display: flex;
+  align-items: center;
+}
+
+.book img {
+  width: 150px;
+  height: 200px;
+  margin-right: 20px;
+}
+
+.book p {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.book div{
+  margin-bottom: 30px;
+}
+
+.book a {
+  background-color: var(--color-yellow);
+  padding: 10px;
+  border-radius: 5px;
+  border: var(--color-line) solid 2px;
+}
+
+.book a:hover {
+  background-color: var(--color-pink);
+  text-decoration: none;
 }

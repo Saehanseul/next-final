@@ -4,4 +4,9 @@
   padding: 20px;
   margin: 20px;
   width: 50vw;
+  border-radius: 5px;
+}
+
+.bookCategory:hover {
+  background-color: var(--color-pink);
 }

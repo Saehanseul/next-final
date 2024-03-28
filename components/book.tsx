@@ -1,3 +1,4 @@
+import Image from "next/image";
 import styles from "../styles/book.module.css";
 
 interface IProps {
@@ -18,12 +19,14 @@ export default function Book({
   return (
     <div className={styles.book}>
       <img src={book_image} alt={title} />
-      <h1>{title}</h1>
-      <div>{author}</div>
-      <div>{description}</div>
-      <a href={amazon_product_url} target="_blank">
-        Buy now
-      </a>
+      <div>
+        <h1>{title}</h1>
+        <p>{author}</p>
+        <div>{description}</div>
+        <a href={amazon_product_url} target="_blank">
+          Buy now
+        </a>
+      </div>
     </div>
   );
 }
